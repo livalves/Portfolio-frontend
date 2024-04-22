@@ -19,6 +19,10 @@ export const Footer = styled.footer`
         color: #F39F5A;
         cursor: pointer;
     }
+
+    svg:hover{
+        color: white;
+    }
 `;
 
 

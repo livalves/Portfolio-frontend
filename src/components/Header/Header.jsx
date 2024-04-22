@@ -23,7 +23,7 @@ export default function Header() {
                     </li>
                     <li>
                         <Link className={"link"} to={"/sobre"}>
-                            <span>Sobre</span>
+                            <span>Sobre mim</span>
                         </Link>
                     </li>
                     <li>

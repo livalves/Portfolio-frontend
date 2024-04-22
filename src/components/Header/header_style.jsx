@@ -44,6 +44,10 @@ export const Header = styled.header`
         color: #F39F5A;
     }
 
+    button:hover{
+        color: white;
+    }
+
     ul {
         display: flex;
         flex-direction: column;

@@ -5,6 +5,7 @@ export const Section = styled.section`
    justify-content: space-evenly;
    align-items: center;
    height: 80vh;
+   padding: 0 1em;
 
    .info{
       height: 40vh;
