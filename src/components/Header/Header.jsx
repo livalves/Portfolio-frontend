@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import * as S from "./header_style";
+import Logo from "../../assets/logo.png"
 
 export default function Header() {
   const [menu, setMenu] = useState(false);
@@ -8,7 +9,7 @@ export default function Header() {
   return (
     <S.Header>
         <div>
-            <p>LA</p>
+            <img src={Logo} alt="Logo Lívia Alves" />
             <p>Portfólio</p>
             <button onClick={() => setMenu(!menu)}>{menu ? "✖" : "☰"}</button>
         </div>

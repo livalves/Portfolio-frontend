@@ -12,6 +12,8 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Header = styled.header`
 
+    border-bottom: 1px solid #F39F5A;
+
     div{
         display: flex;
         justify-content: space-between;
@@ -19,10 +21,16 @@ export const Header = styled.header`
         height: 10vh;
         padding: 1rem;
     }
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
     
     p{
         font-size: 30px;
         color: #F39F5A;
+        font-weight: bold;
     }
 
     button{
@@ -37,14 +45,14 @@ export const Header = styled.header`
     }
 
     ul {
-        border: 1px solid green;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 90vh;
         width: 100%;
-        background-color: #1C1A38;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 0, 0.5);
         position: absolute;
         z-index: 1;
         list-style-type: none;
@@ -52,6 +60,7 @@ export const Header = styled.header`
 
     li{
         padding: 1em;
+        background-color: transparent;
     }
 
     .link{
@@ -65,7 +74,9 @@ export const Header = styled.header`
         }
 
         span {
+            font-weight: bold;
             font-size: 3rem;
+            background-color: transparent;
         }
  
     }
