@@ -38,4 +38,16 @@ export const Item = styled.div`
     .text a:hover{
         color: #F39F5A;
     }
+        @media(max-width: 1007px){
+            .image img{
+                width: 90%;
+                height: 30vh;
+            }
+        }
+        @media(max-width: 640px){
+            .image img{
+                width: 90%;
+                height: 20vh;
+            }
+        }
 `;

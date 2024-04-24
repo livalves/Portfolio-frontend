@@ -48,7 +48,7 @@ export const Section = styled.section`
         height: 100%;
     }
 
-    h1, h2{
+    h1{
         text-align: center;
         padding-bottom: 1em;
     }
@@ -68,6 +68,52 @@ export const Section = styled.section`
     .about_link a:hover{
         color: #F39F5A;
     }
+
+        @media(max-width: 1100px){
+            background-color: #1D1A39;
+            flex-direction: column;
+            height: 100%;
+            padding-bottom: 6em ;
+
+            .about, .skills{
+                width: 100%;
+                padding: 1em 0;
+            }
+
+            .about_training ul{
+                padding: 0 1em;
+            }
+        }
+        @media(max-width: 1007px){
+            background-color: #1D1A39;
+            flex-direction: column;
+            height: 100%;
+            padding-bottom: 6em ;
+
+            .about, .skills{
+                width: 100%;
+                padding: 1em 0;
+            }
+
+            .about_training ul{
+                padding: 0 1em;
+            }
+        }
+        @media(max-width: 640px){
+            background-color: #1D1A39;
+            flex-direction: column;
+            height: 100%;
+            padding-bottom: 6em ;
+
+            .about, .skills{
+                width: 100%;
+                padding: 1em 0;
+            }
+
+            .about_training ul{
+                padding: 0 1em;
+            }
+        }
 `;
 
 

@@ -13,6 +13,10 @@ export const GlobalStyle = createGlobalStyle`
 export const Header = styled.header`
 
     border-bottom: 1px solid #F39F5A;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 
     div{
         display: flex;

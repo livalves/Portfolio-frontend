@@ -11,7 +11,6 @@ export const Section = styled.section`
 
     h1{
         color: white;
-        padding-bottom: 1em;
     }
 
     .carousel{

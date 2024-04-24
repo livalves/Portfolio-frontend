@@ -20,7 +20,7 @@ export default function Projetos() {
         <Header/>
         <H.Section>
             <h1>Projetos</h1>
-            <Carousel className='carousel' enableAutoPlay autoPlaySpeed={3000}>
+            <Carousel className='carousel' enableAutoPlay autoPlaySpeed={2000}>
                 <Item image={McDonalds} text={"McDonald's"} link={"https://github.com/livalves/McDonalds-page"}/>
                 <Item image={ProfileLinks} text={"Social links profile"} link={"https://github.com/livalves/Social-links-profile"}/>
                 <Item image={Todo} text={"ToDo"} link={"https://github.com/livalves/Todo-programaria"}/>

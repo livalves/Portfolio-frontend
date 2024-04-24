@@ -55,6 +55,41 @@ export const Section = styled.section`
       border: 1px solid white;
       color: white;
    }
+
+      @media(max-width: 1007px){
+         background-color: #1D1A39;
+
+         .titles{
+            height: 10vh;
+         }
+
+         .titles h1, span{
+            font-size: 2rem;
+         }
+
+         img{
+            width: 100%;
+            height: 30vh;
+         }
+      }
+      @media(max-width: 640px){
+         background-color: #1D1A39;
+         flex-direction: column;
+         height: 100%;
+
+         .titles{
+            height: 10vh;
+         }
+
+         .titles h1, span{
+            font-size: 2rem;
+         }
+
+         img{
+            width: 100%;
+            height: 30vh;
+         }
+      }
 `;
 
 

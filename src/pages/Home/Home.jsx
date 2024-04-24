@@ -7,29 +7,30 @@ import Foto from "../../assets/foto.png";
 import CV from "../../assets/cv-liviaalves.pdf";
 
 export default function Home() {
-  return (
-    <> 
-        <S.GlobalStyle/>
-        <Header/>
-        <H.Section>
-            <div className='info'>
-                <div className='titles'>
-                    <h1>Olá, eu sou a</h1> 
-                    <span> Lívia Alves :)</span>
-                    <p>Desenvolvedora Font-end</p>
+
+    return (
+        <> 
+            <S.GlobalStyle/>
+            <Header/>
+            <H.Section>
+                <div className='info'>
+                    <div className='titles'>
+                        <h1>Olá, eu sou a</h1> 
+                        <span> Lívia Alves :)</span>
+                        <p>Desenvolvedora Font-end</p>
+                    </div>
+                    
+                    <div className='cv'>
+                        <a href={CV} download>
+                            <button>Baixar CV</button>
+                        </a>
+                    </div>
                 </div>
-                
-                <div className='cv'>
-                    <a href={CV} download>
-                        <button>Baixar CV</button>
-                    </a>
+                <div className='image'>
+                    <img src={Foto} alt="Foto Lívia Alves" />
                 </div>
-            </div>
-            <div className='image'>
-                <img src={Foto} alt="Foto Lívia Alves" />
-            </div>
-        </H.Section>
-        <Footer/>
-    </>
-  )
+            </H.Section>
+            <Footer className="footer"/>
+        </>
+    )
 }
