@@ -8,7 +8,7 @@
 
 # Demo
 
-![Resultado final do projeto](assets/)
+![Resultado final do projeto](src/assets/tela.gif)
 
 ##
 
