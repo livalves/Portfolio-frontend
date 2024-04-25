@@ -2,7 +2,7 @@
 
 #### Portfólio pessoal desenvolvido em React.
 
-- Acesse clicando [aqui]().
+- Acesse clicando [aqui](https://portfolio-liviaalves.vercel.app/).
 
 ---
 
